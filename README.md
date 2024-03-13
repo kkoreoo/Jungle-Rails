@@ -1,6 +1,11 @@
 # Jungle
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+Feel free to purchase many lovely succulents! You're even able to add more products and categories that you see fit!
+
+## Images
+
+
 
 ## Setup
 
