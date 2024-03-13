@@ -7,9 +7,14 @@ class User < ApplicationRecord
   validates :password, presence: true, length: { minimum: 6 }
 
   def self.authenticate_with_credentials(email, password)
-    user = User.find_by_email(email.strip.downcase)
+    # Find user by email, ignoring case
+    user = User.where("LOWER(email) = ?", email.strip.downcase).first
     
-    user if user&.authenticate(password)
-    
+    # Check if user exists and authenticate password
+    if user && user.authenticate(password)
+      return user
+    else
+      return nil
+    end
   end
 end
