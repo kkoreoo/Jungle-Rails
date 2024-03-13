@@ -4,7 +4,9 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 Feel free to purchase many lovely succulents! You're even able to add more products and categories that you see fit!
 
 ## Images
-
+![Home Page](https://github.com/kkoreoo/Jungle-Rails/blob/master/imgs/home%20page.png?raw=true)
+![All the products displayed on the Home Page](https://github.com/kkoreoo/Jungle-Rails/blob/master/imgs/home%20page%20lower.png?raw=true)
+![Product Detail Page](https://github.com/kkoreoo/Jungle-Rails/blob/master/imgs/product%20details.png?raw=true)
 
 
 ## Setup
